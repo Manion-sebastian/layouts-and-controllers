@@ -8,3 +8,5 @@ router.get('/animals', (req, res) => {
 router.get('/food', (req, res) => {
     res.render('food', {food: ['Tiramisu', 'Tteokbokki']})
 })
+
+module.exports = router
